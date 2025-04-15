@@ -9,6 +9,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddMemoryCache();
 
 builder.Services.AddHttpClient<IWeatherService, WeatherbitService>(client =>
 {
@@ -16,6 +17,7 @@ builder.Services.AddHttpClient<IWeatherService, WeatherbitService>(client =>
 });
 
 builder.Services.AddScoped<GetCurrentWeatherUseCase>();
+builder.Services.AddScoped<GetDailyForecastUseCase>();
 
 builder.Services.AddMemoryCache();
 

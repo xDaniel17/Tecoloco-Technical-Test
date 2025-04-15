@@ -2,7 +2,7 @@
   {
     "ContainingType": "WeatherService.src.Presentation.Controllers.WeatherController",
     "Method": "GetCurrentWeather",
-    "RelativePath": "api/Weather/current",
+    "RelativePath": "api/weather/current",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,6 +10,37 @@
       {
         "Name": "city",
         "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WeatherService.src.Presentation.Controllers.WeatherController",
+    "Method": "GetDailyForecast",
+    "RelativePath": "api/weather/forecast/daily",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "days",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],
