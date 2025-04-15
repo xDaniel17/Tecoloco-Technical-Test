@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "WeatherService.src.Presentation.Controllers.WeatherController",
+    "Method": "GetCurrentWeather",
+    "RelativePath": "api/Weather/current",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

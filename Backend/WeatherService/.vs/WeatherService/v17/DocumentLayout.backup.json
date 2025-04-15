@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|c:\\users\\xdani\\desktop\\technical test\\tecoloco-technical-test\\backend\\weatherservice\\weatherservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|solutionrelative:weatherservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|c:\\users\\xdani\\desktop\\technical test\\tecoloco-technical-test\\backend\\weatherservice\\weatherservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|solutionrelative:weatherservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|c:\\users\\xdani\\desktop\\technical test\\tecoloco-technical-test\\backend\\weatherservice\\weatherservice\\tests\\mocks\\currentweather.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|solutionrelative:weatherservice\\tests\\mocks\\currentweather.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|c:\\users\\xdani\\desktop\\technical test\\tecoloco-technical-test\\backend\\weatherservice\\weatherservice\\src\\presentation\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|solutionrelative:weatherservice\\src\\presentation\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|c:\\users\\xdani\\desktop\\technical test\\tecoloco-technical-test\\backend\\weatherservice\\weatherservice\\src\\infrastructure\\services\\weatherbitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|solutionrelative:weatherservice\\src\\infrastructure\\services\\weatherbitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|c:\\users\\xdani\\desktop\\technical test\\tecoloco-technical-test\\backend\\weatherservice\\weatherservice\\src\\core\\interfaces\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|solutionrelative:weatherservice\\src\\core\\interfaces\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|c:\\users\\xdani\\desktop\\technical test\\tecoloco-technical-test\\backend\\weatherservice\\weatherservice\\src\\core\\entities\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|solutionrelative:weatherservice\\src\\core\\entities\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|c:\\users\\xdani\\desktop\\technical test\\tecoloco-technical-test\\backend\\weatherservice\\weatherservice\\src\\core\\entities\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|solutionrelative:weatherservice\\src\\core\\entities\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|c:\\users\\xdani\\desktop\\technical test\\tecoloco-technical-test\\backend\\weatherservice\\weatherservice\\src\\core\\entities\\currentobsgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|solutionrelative:weatherservice\\src\\core\\entities\\currentobsgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|c:\\users\\xdani\\desktop\\technical test\\tecoloco-technical-test\\backend\\weatherservice\\weatherservice\\src\\core\\entities\\currentobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2386BA-AAF7-442F-8945-615CB7FEDB25}|WeatherService\\WeatherService.csproj|solutionrelative:weatherservice\\src\\core\\entities\\currentobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\Program.cs",
+              "RelativeDocumentMoniker": "WeatherService\\Program.cs",
+              "ToolTip": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\Program.cs",
+              "RelativeToolTip": "WeatherService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:05:07.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\appsettings.json",
+              "RelativeDocumentMoniker": "WeatherService\\appsettings.json",
+              "ToolTip": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\appsettings.json",
+              "RelativeToolTip": "WeatherService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T00:05:06.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Presentation\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "WeatherService\\src\\Presentation\\Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Presentation\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "WeatherService\\src\\Presentation\\Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:03:47.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CurrentObsGroup.cs",
+              "DocumentMoniker": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Core\\Entities\\CurrentObsGroup.cs",
+              "RelativeDocumentMoniker": "WeatherService\\src\\Core\\Entities\\CurrentObsGroup.cs",
+              "ToolTip": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Core\\Entities\\CurrentObsGroup.cs",
+              "RelativeToolTip": "WeatherService\\src\\Core\\Entities\\CurrentObsGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:03:19.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CurrentObs.cs",
+              "DocumentMoniker": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Core\\Entities\\CurrentObs.cs",
+              "RelativeDocumentMoniker": "WeatherService\\src\\Core\\Entities\\CurrentObs.cs",
+              "ToolTip": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Core\\Entities\\CurrentObs.cs",
+              "RelativeToolTip": "WeatherService\\src\\Core\\Entities\\CurrentObs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:03:16.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherbitService.cs",
+              "DocumentMoniker": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Infrastructure\\Services\\WeatherbitService.cs",
+              "RelativeDocumentMoniker": "WeatherService\\src\\Infrastructure\\Services\\WeatherbitService.cs",
+              "ToolTip": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Infrastructure\\Services\\WeatherbitService.cs",
+              "RelativeToolTip": "WeatherService\\src\\Infrastructure\\Services\\WeatherbitService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T23:27:42.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IWeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Core\\Interfaces\\IWeatherService.cs",
+              "RelativeDocumentMoniker": "WeatherService\\src\\Core\\Interfaces\\IWeatherService.cs",
+              "ToolTip": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Core\\Interfaces\\IWeatherService.cs",
+              "RelativeToolTip": "WeatherService\\src\\Core\\Interfaces\\IWeatherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T23:27:40.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherData.cs",
+              "DocumentMoniker": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Core\\Entities\\WeatherData.cs",
+              "RelativeDocumentMoniker": "WeatherService\\src\\Core\\Entities\\WeatherData.cs",
+              "ToolTip": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Core\\Entities\\WeatherData.cs",
+              "RelativeToolTip": "WeatherService\\src\\Core\\Entities\\WeatherData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T23:27:05.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Weather.cs",
+              "DocumentMoniker": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Core\\Entities\\Weather.cs",
+              "RelativeDocumentMoniker": "WeatherService\\src\\Core\\Entities\\Weather.cs",
+              "ToolTip": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\src\\Core\\Entities\\Weather.cs",
+              "RelativeToolTip": "WeatherService\\src\\Core\\Entities\\Weather.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T23:27:03.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "currentWeather.json",
+              "DocumentMoniker": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\tests\\mocks\\currentWeather.json",
+              "RelativeDocumentMoniker": "WeatherService\\tests\\mocks\\currentWeather.json",
+              "ToolTip": "C:\\Users\\xdani\\Desktop\\Technical Test\\Tecoloco-Technical-Test\\Backend\\WeatherService\\WeatherService\\tests\\mocks\\currentWeather.json",
+              "RelativeToolTip": "WeatherService\\tests\\mocks\\currentWeather.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-14T23:26:45.72Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

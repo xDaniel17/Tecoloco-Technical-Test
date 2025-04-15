@@ -1,0 +1,11 @@
+//https://localhost:7124/api/Weather/current?city=Paris
+
+{
+	"id": 0,
+	"city": "Paris",
+	"date": "2025-04-14T17:18:00.2439802-06:00",
+	"condition": "Clear sky",
+	"temperature": 15.6,
+	"minTemperature": 10.9,
+	"maxTemperature": 15.6
+}
