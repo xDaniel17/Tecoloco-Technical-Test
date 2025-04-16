@@ -1,0 +1,8 @@
+2025-04-15 18:32:17.008 -06:00 [INF] API Call: GetCurrentWeather para cuidad Paris
+2025-04-15 18:32:17.296 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad Paris
+2025-04-15 18:32:31.035 -06:00 [INF] Los datos meteorológicos de la ciudad Paris se guardaron correctamente en la base de datos.
+2025-04-15 18:32:31.206 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 15280.6842 ms
+2025-04-15 18:32:59.267 -06:00 [INF] API Call: GetDailyForecast cuidad Paris, dias 7, pagina 1, tamaño 7
+2025-04-15 18:32:59.285 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad Paris
+2025-04-15 18:32:59.957 -06:00 [INF] El pronóstico diario para la ciudad Paris se guardó correctamente en la base de datos.
+2025-04-15 18:32:59.971 -06:00 [INF] HTTP GET /api/weather/forecast/daily responded 200 in 721.1412 ms

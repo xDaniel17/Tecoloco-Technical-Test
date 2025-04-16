@@ -13,10 +13,10 @@
 
     public class BaseResponse_Error
     {
-        private readonly string defaultMessage = "No se pudo completar la operación.";
+        //private readonly string defaultMessage = "No se pudo completar la operación.";
         public string ErrorCode { get; set; }
         public string ErrorMessageUser { get; set; }
         public string ErrorMessageSystem { get; set; }
-        public string ErrorMessageUserDefault => defaultMessage;
+        //public string ErrorMessageUserDefault => defaultMessage;
     }
 }

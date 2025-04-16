@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
 using Polly;
 using Polly.Wrap;
-using Polly.CircuitBreaker;
 using System.Text.Json;
 using WeatherService.src.Core.Entities;
 using WeatherService.src.Core.Interfaces;
@@ -28,13 +27,13 @@ namespace WeatherService.src.Infrastructure.Services
             // Configuración del patrón Circuit Breaker con Polly
             var retryPolicy = Policy
                 .Handle<HttpRequestException>()
-                .WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt))); 
+                .WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
 
             var circuitBreakerPolicy = Policy.Handle<HttpRequestException>().AdvancedCircuitBreakerAsync(
-                failureThreshold: 0.5, 
+                failureThreshold: 0.5,
                 samplingDuration: TimeSpan.FromSeconds(60),
-                minimumThroughput: 10, 
-                durationOfBreak: TimeSpan.FromMinutes(2) 
+                minimumThroughput: 10,
+                durationOfBreak: TimeSpan.FromMinutes(2)
             );
 
             _resiliencePolicy = Policy.WrapAsync(retryPolicy, circuitBreakerPolicy);
@@ -79,6 +78,7 @@ namespace WeatherService.src.Infrastructure.Services
             {
                 Id = 1,
                 City = obs.city_name,
+                CountryCode = obs.country_code,
                 Temperature = obs.temp,
                 MinTemperature = obs.dewpt,
                 MaxTemperature = obs.app_temp,
@@ -114,7 +114,7 @@ namespace WeatherService.src.Infrastructure.Services
                     throw new InvalidOperationException("No se encontraron datos de pronóstico");
                 }
 
-                var weatherDataList = MapToWeatherData(forecast.data, forecast.city_name);
+                var weatherDataList = MapToWeatherData(forecast, forecast.city_name);
 
                 // Almacenar en caché por 10 minutos
                 _cache.Set(cacheKey, weatherDataList, TimeSpan.FromMinutes(10));
@@ -122,23 +122,24 @@ namespace WeatherService.src.Infrastructure.Services
             });
         }
 
-        private List<WeatherData> MapToWeatherData(List<DailyForecastData> days, string cityName)
+        private List<WeatherData> MapToWeatherData(DailyForecast days, string cityName)
         {
             var weatherDataList = new List<WeatherData>();
             int n = 1;
-            foreach (var day in days)
+            string countryCode = days.country_code;
+            foreach (var day in days.data)
             {
                 weatherDataList.Add(new WeatherData
                 {
                     Id = n,
                     City = cityName,
+                    CountryCode = countryCode,
                     Temperature = day.temp,
                     MinTemperature = day.min_temp,
                     MaxTemperature = day.max_temp,
                     Condition = day.weather?.description,
                     Date = DateTime.Parse(day.valid_date)
                 });
-
                 n++;
             }
             return weatherDataList;
