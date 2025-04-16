@@ -18,7 +18,7 @@
   {
     "ContainingType": "WeatherService.src.Presentation.Controllers.WeatherController",
     "Method": "GetDailyForecast",
-    "RelativePath": "api/weather/forecast/daily",
+    "RelativePath": "api/weather/forecast",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

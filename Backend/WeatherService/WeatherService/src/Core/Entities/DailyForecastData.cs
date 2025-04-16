@@ -8,7 +8,7 @@
         public int? clouds_hi { get; set; }
         public int? clouds_low { get; set; }
         public int? clouds_mid { get; set; }
-        public string datetime { get; set; }
+        public string datetime { get; set; } = string.Empty;
         public double? dewpt { get; set; }
         public double? high_temp { get; set; }
         public double? low_temp { get; set; }
@@ -31,11 +31,11 @@
         public float? temp { get; set; }
         public long? ts { get; set; }
         public double? uv { get; set; }
-        public string valid_date { get; set; }
+        public string valid_date { get; set; } = string.Empty;
         public double? vis { get; set; }
-        public Weather weather { get; set; }
-        public string wind_cdir { get; set; }
-        public string wind_cdir_full { get; set; }
+        public Weather weather { get; set; } = new Weather();
+        public string wind_cdir { get; set; } = string.Empty;
+        public string wind_cdir_full { get; set; } = string.Empty;
         public int? wind_dir { get; set; }
         public double? wind_gust_spd { get; set; }
         public double? wind_spd { get; set; }
