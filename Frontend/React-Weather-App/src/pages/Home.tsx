@@ -11,19 +11,25 @@ function Home() {
         if (city.trim() !== '') {
             navigate(`/weather/${city}`);
         } else {
-            alert('Por favor, ingrese el nombre de una ciudad.');
+            alert('Please enter the name of a city.');
+        }
+    };
+
+    const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === 'Enter') {
+            handleSearch();
         }
     };
 
     return (
         <>
             <div className="grid grid-rows-[auto_1fr_auto] min-h-screen">
-                <Header></Header>
-                <main className="bg-white dark:bg-[rgb(50,54,59,1)] text-black dark:text-white">
-                    <section className="flex justify-center min-h-full pt-52 px-6 lg:px-8">
+                <Header />
+                <main className="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+                    <section className="flex justify-center min-h-full pt-40 px-6 lg:px-8">
                         <div className="text-center sm:w-full sm:max-w-md lg:max-w-lg">
-                            <h1 className="text-3xl font-bold tracking-tight text-black dark:text-white">
-                                Digite el nombre de una ciudad
+                            <h1 className="text-3xl font-bold tracking-tight">
+                                Enter the name of a city
                             </h1>
                             <div className="mt-8 flex flex-col items-center space-y-6">
                                 <input
@@ -31,19 +37,20 @@ function Home() {
                                     placeholder="San Salvador, Paris, Madrid..."
                                     value={city}
                                     onChange={(e) => setCity(e.target.value)}
-                                    className="w-full px-6 py-4 text-lg border border-gray-300 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-pink-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+                                    onKeyDown={handleKeyPress}
+                                    className="w-full px-6 py-4 text-lg border border-gray-300 dark:border-gray-700 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-200"
                                 />
                                 <button
                                     onClick={handleSearch}
-                                    className="px-8 py-2 text-lg font-medium text-white bg-pink-500 rounded-lg hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                                    className="px-8 py-2 text-lg font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
                                 >
-                                    Consultar
+                                    Search
                                 </button>
                             </div>
                         </div>
                     </section>
                 </main>
-                <Footer></Footer>
+                <Footer />
             </div>
         </>
     );
