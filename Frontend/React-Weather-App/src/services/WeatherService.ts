@@ -4,11 +4,11 @@ import { GetDailyForecastRequest } from '../models/GetDailyForecastRequest';
 import { BaseResponse } from '../models/BaseResponse';
 import { WeatherData } from '../models/WeatherData';
 
-const API_BASE_URL = 'https://your-api-url.com';
+const API_BASE_URL = 'https://localhost:7124/api';//pendiente configurar .env
 
 export class WeatherService implements IWeatherService {
     async getCurrentWeather(request: GetCurrentWeatherRequest): Promise<BaseResponse<WeatherData>> {
-        const url = `${API_BASE_URL}/api/weather/current?city=${encodeURIComponent(request.city)}`;
+        const url = `${API_BASE_URL}/weather/current?city=${encodeURIComponent(request.city)}`;
         const response = await fetch(url);
         if (!response.ok) {
             throw new Error(`HTTP Error: ${response.status}`);
@@ -23,7 +23,7 @@ export class WeatherService implements IWeatherService {
         if (request.page) params.append('page', request.page.toString());
         if (request.pageSize) params.append('pageSize', request.pageSize.toString());
 
-        const url = `${API_BASE_URL}/api/weather/forecast?${params.toString()}`;
+        const url = `${API_BASE_URL}/weather/forecast?${params.toString()}`;
         const response = await fetch(url);
         if (!response.ok) {
             throw new Error(`HTTP Error: ${response.status}`);

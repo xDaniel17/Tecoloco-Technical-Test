@@ -28,16 +28,23 @@ builder.Host.UseSerilog((context, configuration) =>
         .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day); // Registrar en archivo
 });
 
-
 builder.Services.AddScoped<GetCurrentWeatherUseCase>();
 builder.Services.AddScoped<GetDailyForecastUseCase>();
-
 builder.Services.AddMemoryCache();
-
 
 builder.Services.AddDbContext<WeatherDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Configurar CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173") // Depende de la url del frontend
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -48,6 +55,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("AllowFrontend");
 app.UseMiddleware<WeatherService.src.Middleware.ExceptionMiddleware>();
 app.UseSerilogRequestLogging();
 app.UseHttpsRedirection();

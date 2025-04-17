@@ -72,7 +72,7 @@ namespace WeatherService.src.Presentation.Controllers
 
                 _logger.Information("Los datos meteorológicos de la ciudad {City} se guardaron correctamente en la base de datos.", city);
 
-                return Ok(new BaseResponse<object>
+                return Ok(new BaseResponse<WeatherData>
                 {
                     ResultCode = 200,
                     Content = weatherData,

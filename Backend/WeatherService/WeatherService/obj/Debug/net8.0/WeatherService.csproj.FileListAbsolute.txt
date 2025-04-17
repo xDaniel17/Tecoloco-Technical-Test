@@ -475,3 +475,4 @@ C:\Users\xdani\Desktop\Technical Test\Tecoloco-Technical-Test\Backend\WeatherSer
 C:\Users\xdani\Desktop\Technical Test\Tecoloco-Technical-Test\Backend\WeatherService\WeatherService\obj\Debug\net8.0\WeatherService.pdb
 C:\Users\xdani\Desktop\Technical Test\Tecoloco-Technical-Test\Backend\WeatherService\WeatherService\obj\Debug\net8.0\WeatherService.genruntimeconfig.cache
 C:\Users\xdani\Desktop\Technical Test\Tecoloco-Technical-Test\Backend\WeatherService\WeatherService\obj\Debug\net8.0\ref\WeatherService.dll
+C:\Users\xdani\Desktop\Technical Test\Tecoloco-Technical-Test\Backend\WeatherService\WeatherService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

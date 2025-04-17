@@ -1,0 +1,5 @@
+2025-04-17 12:32:50.467 -06:00 [INF] HTTP GET /api//weather/current responded 404 in 4.1532 ms
+2025-04-17 12:33:07.123 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:33:07.145 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:33:10.167 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:33:10.216 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 6117.1480 ms

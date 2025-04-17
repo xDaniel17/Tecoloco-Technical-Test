@@ -1,0 +1,264 @@
+2025-04-17 12:38:14.038 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:38:14.117 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:38:16.230 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:38:16.283 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 2644.6821 ms
+2025-04-17 12:38:16.334 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:38:16.343 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:38:16.761 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:38:16.771 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 458.7055 ms
+2025-04-17 12:38:28.965 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:38:28.969 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:38:29.003 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:38:29.008 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 52.1180 ms
+2025-04-17 12:38:29.049 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:38:29.057 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:38:29.072 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:38:29.078 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 30.2333 ms
+2025-04-17 12:38:53.057 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:38:53.079 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:38:53.114 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:38:53.138 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 85.7025 ms
+2025-04-17 12:38:53.265 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:38:53.297 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:38:53.364 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:38:53.386 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 123.8347 ms
+2025-04-17 12:39:02.793 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:39:02.797 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:39:02.809 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:39:02.815 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 23.1712 ms
+2025-04-17 12:39:02.840 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:39:02.849 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:39:02.863 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:39:02.870 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 30.9892 ms
+2025-04-17 12:40:39.374 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:40:39.378 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:40:39.409 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:40:39.415 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 43.9582 ms
+2025-04-17 12:40:39.515 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:40:39.523 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:40:39.547 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:40:39.553 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 38.8916 ms
+2025-04-17 12:41:00.358 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:41:00.385 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:41:00.446 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:41:00.462 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 107.1573 ms
+2025-04-17 12:41:00.770 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:41:00.812 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:41:00.900 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:41:00.931 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 162.9297 ms
+2025-04-17 12:44:13.093 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:44:13.107 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:44:13.143 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:44:13.160 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 72.0073 ms
+2025-04-17 12:44:13.483 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:44:13.520 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:44:13.584 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:44:13.608 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 127.1970 ms
+2025-04-17 12:45:03.800 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:45:03.866 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:45:03.922 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:45:03.943 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 146.2416 ms
+2025-04-17 12:45:03.981 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:45:03.991 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:45:04.010 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:45:04.018 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 38.1413 ms
+2025-04-17 12:46:21.806 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:46:21.821 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:46:21.854 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:46:21.868 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 65.8281 ms
+2025-04-17 12:46:22.230 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:46:22.263 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:46:22.322 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:46:22.342 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 117.2156 ms
+2025-04-17 12:48:24.616 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:48:24.652 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:48:25.222 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:48:25.241 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 631.6639 ms
+2025-04-17 12:48:26.287 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:48:26.311 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:48:26.449 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:48:26.464 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 178.3210 ms
+2025-04-17 12:50:17.806 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:50:17.843 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:50:17.881 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:50:17.895 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 103.1213 ms
+2025-04-17 12:50:18.229 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:50:18.280 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:50:18.352 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:50:18.367 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 140.6756 ms
+2025-04-17 12:52:03.635 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:52:03.650 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:52:03.689 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:52:03.705 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 94.7234 ms
+2025-04-17 12:52:03.993 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:52:04.048 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:52:04.129 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:52:04.145 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 155.3788 ms
+2025-04-17 12:52:59.454 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:52:59.512 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:52:59.548 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:52:59.563 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 111.8265 ms
+2025-04-17 12:52:59.870 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:52:59.901 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:52:59.988 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:53:00.010 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 142.5133 ms
+2025-04-17 12:54:09.460 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:54:09.486 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:54:09.500 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:54:09.505 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 47.0380 ms
+2025-04-17 12:54:09.634 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:54:09.656 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:54:09.709 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:54:09.717 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 83.9581 ms
+2025-04-17 12:54:15.351 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:54:15.356 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:54:15.367 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:54:15.373 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 23.3147 ms
+2025-04-17 12:54:15.488 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:54:15.496 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:54:15.510 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:54:15.516 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 28.6171 ms
+2025-04-17 12:54:35.965 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:54:36.069 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:54:36.125 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:54:36.195 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 245.7109 ms
+2025-04-17 12:54:36.416 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:54:36.520 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:54:36.614 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:54:36.660 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 246.4605 ms
+2025-04-17 12:56:27.362 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:56:27.369 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:56:27.383 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:56:27.389 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 36.4666 ms
+2025-04-17 12:56:27.548 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:56:27.555 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:56:27.575 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:56:27.581 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 33.5801 ms
+2025-04-17 12:57:14.597 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:57:14.614 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:57:14.625 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:57:14.631 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 35.2079 ms
+2025-04-17 12:57:14.726 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:57:14.734 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:57:14.746 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:57:14.752 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 26.4419 ms
+2025-04-17 12:57:51.673 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:57:51.723 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:57:51.752 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:57:51.764 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 92.3712 ms
+2025-04-17 12:57:51.854 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:57:51.872 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:57:51.911 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:57:51.922 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 68.2975 ms
+2025-04-17 12:59:24.649 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 12:59:24.661 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 12:59:25.086 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 12:59:25.091 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 445.1645 ms
+2025-04-17 12:59:25.264 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 12:59:25.272 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 12:59:25.378 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 12:59:25.383 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 119.9563 ms
+2025-04-17 13:06:43.689 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 13:06:44.051 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 13:06:47.641 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 13:06:47.703 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 5159.2363 ms
+2025-04-17 13:06:47.760 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 13:06:47.769 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 13:06:48.096 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 13:06:48.109 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 372.1034 ms
+2025-04-17 13:08:15.158 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 13:08:15.162 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 13:08:15.208 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 13:08:15.216 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 68.2021 ms
+2025-04-17 13:08:15.278 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 13:08:15.286 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 13:08:15.312 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 13:08:15.319 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 41.9380 ms
+2025-04-17 13:12:31.741 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 13:12:31.756 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 13:12:31.801 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 13:12:31.834 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 121.2134 ms
+2025-04-17 13:12:32.180 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 13:12:32.264 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 13:12:32.334 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 13:12:32.360 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 224.4777 ms
+2025-04-17 13:13:09.608 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 13:13:09.621 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 13:13:09.652 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 13:13:09.664 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 59.4282 ms
+2025-04-17 13:13:10.037 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 13:13:10.061 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 13:13:10.148 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 13:13:10.179 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 144.4355 ms
+2025-04-17 13:14:15.203 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 13:14:15.219 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 13:14:15.255 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 13:14:15.274 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 75.5771 ms
+2025-04-17 13:14:15.610 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 13:14:15.646 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 13:14:15.729 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 13:14:15.763 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 155.3060 ms
+2025-04-17 13:15:16.559 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 13:15:16.563 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 13:15:16.584 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 13:15:16.590 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 47.7517 ms
+2025-04-17 13:15:16.701 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 13:15:16.709 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 13:15:16.744 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 13:15:16.754 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 53.3070 ms
+2025-04-17 13:15:31.646 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 13:15:31.652 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 13:15:31.666 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 13:15:31.671 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 25.7661 ms
+2025-04-17 13:15:31.787 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 13:15:31.794 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 13:15:31.807 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 13:15:31.812 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 25.5153 ms
+2025-04-17 13:17:22.186 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 13:17:22.229 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 13:17:22.780 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 13:17:22.795 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 614.0537 ms
+2025-04-17 13:17:22.864 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 13:17:22.892 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 13:17:23.184 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 13:17:23.198 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 335.8357 ms
+2025-04-17 14:00:48.849 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 14:00:48.861 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 14:00:49.632 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 14:00:49.649 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 815.7706 ms
+2025-04-17 14:00:49.896 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 14:00:49.918 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 14:00:50.184 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 14:00:50.198 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 303.5055 ms
+2025-04-17 14:24:39.349 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 14:24:39.379 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 14:24:40.086 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 14:24:40.103 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 770.8532 ms
+2025-04-17 14:24:40.164 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 14:24:40.190 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 14:24:40.335 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 14:24:40.349 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 187.2434 ms
+2025-04-17 14:24:51.259 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 14:24:51.265 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 14:24:51.276 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 14:24:51.283 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 24.0658 ms
+2025-04-17 14:24:51.418 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 14:24:51.427 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 14:24:51.439 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 14:24:51.455 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 37.4934 ms
+2025-04-17 14:24:59.192 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 14:24:59.205 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 14:24:59.221 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 14:24:59.228 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 36.4132 ms
+2025-04-17 14:24:59.338 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 14:24:59.347 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 14:24:59.361 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 14:24:59.381 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 44.1400 ms
+2025-04-17 14:25:05.252 -06:00 [INF] API Call: GetCurrentWeather para cuidad San Salvador
+2025-04-17 14:25:05.257 -06:00 [INF] Obteniendo datos meteorológicos para la ciudad San Salvador
+2025-04-17 14:25:05.269 -06:00 [INF] Los datos meteorológicos de la ciudad San Salvador se guardaron correctamente en la base de datos.
+2025-04-17 14:25:05.274 -06:00 [INF] HTTP GET /api/weather/current responded 200 in 23.2671 ms
+2025-04-17 14:25:05.384 -06:00 [INF] API Call: GetDailyForecast cuidad San Salvador, dias 7, pagina 1, tamaño 7
+2025-04-17 14:25:05.391 -06:00 [INF] Obteniendo datos de pronóstico diario para la ciudad San Salvador
+2025-04-17 14:25:05.402 -06:00 [INF] El pronóstico diario para la ciudad San Salvador se guardó correctamente en la base de datos.
+2025-04-17 14:25:05.407 -06:00 [INF] HTTP GET /api/weather/forecast responded 200 in 23.8177 ms
