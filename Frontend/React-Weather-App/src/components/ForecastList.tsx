@@ -11,7 +11,7 @@ const ForecastList = ({ forecast }: { forecast: WeatherData[] }) => {
     };
 
     return (
-        <div className="w-full max-w-md mt-8">
+        <div className="w-full max-w-md mt-8" data-testid="forecast-list">
             <ul>
                 {forecast.map((day, index) => (
                     <li

@@ -48,7 +48,7 @@ export const useWeather = (city: string | undefined, weatherService: IWeatherSer
                 }
             } catch (err) {
                 console.error('Error fetching weather data:', err);
-                setError('No se pudo obtener la informacion del clima');
+                setError('Error fetching weather data. Please try again later.');
             } finally {
                 setLoading(false);
             }

@@ -11,7 +11,7 @@ const WeatherCard = ({ weather }: { weather: WeatherData }) => {
     };
 
     return (
-        <div className="w-full max-w-md p-6 bg-gray-200 dark:bg-gray-800 rounded-lg shadow-lg text-center">
+        <div className="w-full max-w-md p-6 bg-gray-200 dark:bg-gray-800 rounded-lg shadow-lg text-center" data-testid="weather-card">
             <h2 className="text-lg font-medium uppercase tracking-wide text-gray-700 dark:text-gray-300 mb-2">
                 Current temperature in
                 <br />
