@@ -86,13 +86,55 @@ This project demonstrates:
    ```bash
    cd Tecoloco-Technical-Test/backend
    ```
-3. Configure the database:
-   - Update the connection string in `appsettings.json`.
-   - Apply migrations:
-     ```bash
-     dotnet ef database update
-     ```
-4. Run the backend server:
+3. Configure the application settings by updating the `appsettings.json` file:
+   ```json
+   {
+       "WeatherAPI": {
+           "BaseURL": "https://api.weatherbit.io/v2.0/",
+           "ApiKey": "3de9422e19054a348077a6e82810b04d"
+       },
+       "Serilog": {
+           "Using": [ "Serilog.Sinks.Console", "Serilog.Sinks.File" ],
+           "MinimumLevel": {
+               "Default": "Information",
+               "Override": {
+                   "Microsoft": "Warning",
+                   "System": "Warning"
+               }
+           },
+           "WriteTo": [
+               {
+                   "Name": "Console"
+               },
+               {
+                   "Name": "File",
+                   "Args": {
+                       "path": "Logs/log-.txt",
+                       "rollingInterval": "Day"
+                   }
+               }
+           ],
+           "Enrich": [ "FromLogContext", "WithMachineName", "WithThreadId" ],
+           "Properties": {
+               "Application": "WeatherService"
+           }
+       },
+       "ConnectionStrings": {
+           "DefaultConnection": "Server=ADMIN\\SQLEXPRESS;Database=WeatherDB;Trusted_Connection=True;TrustServerCertificate=True;"
+       },
+       "Logging": {
+           "LogLevel": {
+               "Default": "Information",
+               "Microsoft.AspNetCore": "Warning"
+           }
+       }
+   }
+   ```
+4. Apply database migrations:
+   ```bash
+   dotnet ef database update
+   ```
+5. Run the backend server:
    ```bash
    dotnet run
    ```
@@ -121,7 +163,7 @@ This project demonstrates:
 ## How It Works
 
 ### Backend
-- The backend communicates with an external weather API (e.g., OpenWeatherMap) to fetch real-time weather data and forecasts.
+- The backend communicates with an external weather API (e.g., Weatherbit) to fetch real-time weather data and forecasts.
 - The API responses are cached for **10 minutes** using in-memory caching to optimize performance.
 - Implements a **circuit breaker pattern** to handle external API downtime gracefully.
 
@@ -166,6 +208,7 @@ npx playwright test
 2. Deploy the `build` folder to your preferred hosting provider.
 
 ---
+
 
 ## Author
 
