@@ -149,9 +149,9 @@ This project demonstrates:
    npm install
    ```
 3. Configure the backend URL:
-   - Create a `.env` file and set the `REACT_APP_BACKEND_URL` variable:
+   - Create a `.env` file and set the `VITE_API_BASE_URL` variable:
      ```
-     REACT_APP_BACKEND_URL=http://localhost:5000
+     VITE_API_BASE_URL= "https://localhost:7124/api"
      ```
 4. Run the frontend development server:
    ```bash
@@ -208,6 +208,19 @@ npx playwright test
 2. Deploy the `build` folder to your preferred hosting provider.
 
 ---
+
+
+![image](https://github.com/user-attachments/assets/7ee3af04-6374-4008-8dbe-10bd5a340841)
+
+![image](https://github.com/user-attachments/assets/5f7b10eb-68d0-437a-bed1-c14543c1f65c)
+
+![image](https://github.com/user-attachments/assets/cb2fed42-cdc9-47ae-9d30-012f2d17ba4f)
+
+![image](https://github.com/user-attachments/assets/ced964ce-b96a-4082-9fef-8d4ff8418cc9)
+
+![image](https://github.com/user-attachments/assets/45c7c741-5037-412d-8243-852f7aaa8fbb)
+
+![image](https://github.com/user-attachments/assets/512fa05c-ebbc-41e7-b75d-5a43f04d4ac0)
 
 
 ## Author
