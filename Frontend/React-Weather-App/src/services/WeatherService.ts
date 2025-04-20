@@ -4,10 +4,11 @@ import { GetDailyForecastRequest } from '../models/GetDailyForecastRequest';
 import { BaseResponse } from '../models/BaseResponse';
 import { WeatherData } from '../models/WeatherData';
 
-const API_BASE_URL = 'https://localhost:7124/api';//pendiente configurar .env
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;// 'https://localhost:7124/api';//pendiente configurar .env
 
 export class WeatherService implements IWeatherService {
     async getCurrentWeather(request: GetCurrentWeatherRequest): Promise<BaseResponse<WeatherData>> {
+        console.log('Fetching current weather data... ' + API_BASE_URL);
         const url = `${API_BASE_URL}/weather/current?city=${encodeURIComponent(request.city)}`;
         const response = await fetch(url);
         if (!response.ok) {
