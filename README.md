@@ -209,6 +209,9 @@ npx playwright test
 
 ---
 
+![image](https://github.com/user-attachments/assets/7ddbfbde-81a8-4e3f-9d88-47354004e7e1)
+
+![image](https://github.com/user-attachments/assets/fb63d0d0-ca4d-49c7-986f-21d9b20d4a62)
 
 ![image](https://github.com/user-attachments/assets/7ee3af04-6374-4008-8dbe-10bd5a340841)
 
