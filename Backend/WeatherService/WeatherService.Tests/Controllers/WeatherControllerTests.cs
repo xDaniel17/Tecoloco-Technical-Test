@@ -15,7 +15,7 @@ public class WeatherControllerTests
         var mockWeatherService = new Mock<IWeatherService>();
         mockWeatherService
             .Setup(service => service.GetCurrentWeatherAsync("San Salvador"))
-            .ReturnsAsync(new WeatherData { City = "San Salvador", Temperature = (float?)25.5 });
+            .ReturnsAsync(new WeatherData { City = "San Salvador", Temperature = 25.5f });
 
         var useCase = new GetCurrentWeatherUseCase(mockWeatherService.Object);
 
@@ -27,7 +27,10 @@ public class WeatherControllerTests
 
         // Assert
         var okResult = Assert.IsType<OkObjectResult>(result);
-        var response = Assert.IsAssignableFrom<BaseResponse<object>>(okResult.Value);
+        var response = Assert.IsAssignableFrom<BaseResponse<WeatherData>>(okResult.Value); // Cambiado a BaseResponse<WeatherData>
         Assert.Equal(200, response.ResultCode);
+        Assert.NotNull(response.Content);
+        Assert.Equal("San Salvador", response.Content.City);
+        Assert.Equal(25.5f, response.Content.Temperature);
     }
 }
