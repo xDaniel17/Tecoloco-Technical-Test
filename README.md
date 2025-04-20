@@ -129,12 +129,15 @@ This project demonstrates:
            }
        }
    }
-   ```
-4. Apply database migrations:
+   ```   
+
+4. Create sql server database: `WeatherDB`
+
+5. Apply database migrations:
    ```bash
    dotnet ef database update
    ```
-5. Run the backend server:
+6.. Run the backend server:
    ```bash
    dotnet run
    ```
@@ -224,6 +227,12 @@ npx playwright test
 ![image](https://github.com/user-attachments/assets/45c7c741-5037-412d-8243-852f7aaa8fbb)
 
 ![image](https://github.com/user-attachments/assets/512fa05c-ebbc-41e7-b75d-5a43f04d4ac0)
+
+![image](https://github.com/user-attachments/assets/a9861f3d-f43d-4802-a210-cbdb80a829c4)
+
+![image](https://github.com/user-attachments/assets/8d4394aa-16d7-46c8-985b-5deed2bad2a4)
+
+![image](https://github.com/user-attachments/assets/2d90549e-87df-4dfc-b80a-4d80daf19f6f)
 
 
 ## Author
